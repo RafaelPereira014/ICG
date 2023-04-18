@@ -1,0 +1,11 @@
+Model Information:
+* title:	Snow Road (raw scan) Freebie
+* source:	https://sketchfab.com/3d-models/snow-road-raw-scan-freebie-d6f6fb4341f64ee1abe0974d350b0d32
+* author:	Vlad (https://sketchfab.com/ssh4)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Snow Road (raw scan) Freebie" (https://sketchfab.com/3d-models/snow-road-raw-scan-freebie-d6f6fb4341f64ee1abe0974d350b0d32) by Vlad (https://sketchfab.com/ssh4) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

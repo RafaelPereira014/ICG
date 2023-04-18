@@ -1,0 +1,11 @@
+Model Information:
+* title:	X House
+* source:	https://sketchfab.com/3d-models/x-house-ec7b39e705504e3cb3ddbaa560570dc3
+* author:	Sba Stuff (https://sketchfab.com/sbastuff)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "X House" (https://sketchfab.com/3d-models/x-house-ec7b39e705504e3cb3ddbaa560570dc3) by Sba Stuff (https://sketchfab.com/sbastuff) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

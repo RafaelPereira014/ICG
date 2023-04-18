@@ -1,0 +1,11 @@
+Model Information:
+* title:	Snowy Road
+* source:	https://sketchfab.com/3d-models/snowy-road-5ded2cc06f744e5cb18fb92cffc1e0bf
+* author:	domen96 (https://sketchfab.com/domen96)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Snowy Road" (https://sketchfab.com/3d-models/snowy-road-5ded2cc06f744e5cb18fb92cffc1e0bf) by domen96 (https://sketchfab.com/domen96) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

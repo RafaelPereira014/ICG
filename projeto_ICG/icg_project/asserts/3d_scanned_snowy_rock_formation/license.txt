@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D Scanned Snowy Rock Formation
+* source:	https://sketchfab.com/3d-models/3d-scanned-snowy-rock-formation-e3485c920c644930a3a13287b117ba83
+* author:	Randy Quaiscer (https://sketchfab.com/RandyQuaiscer)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D Scanned Snowy Rock Formation" (https://sketchfab.com/3d-models/3d-scanned-snowy-rock-formation-e3485c920c644930a3a13287b117ba83) by Randy Quaiscer (https://sketchfab.com/RandyQuaiscer) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Generic SUV Snow covered wrecked
+* source:	https://sketchfab.com/3d-models/generic-suv-snow-covered-wrecked-80fa8ee8cb34490390bccd54659d90b3
+* author:	1d_inc (https://sketchfab.com/1d_inc)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Generic SUV Snow covered wrecked" (https://sketchfab.com/3d-models/generic-suv-snow-covered-wrecked-80fa8ee8cb34490390bccd54659d90b3) by 1d_inc (https://sketchfab.com/1d_inc) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Superposition of landforms
+* source:	https://sketchfab.com/3d-models/superposition-of-landforms-17b7f43d6962410c848e738cc528ebc3
+* author:	wojtekw (https://sketchfab.com/wojtekw)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Superposition of landforms" (https://sketchfab.com/3d-models/superposition-of-landforms-17b7f43d6962410c848e738cc528ebc3) by wojtekw (https://sketchfab.com/wojtekw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
