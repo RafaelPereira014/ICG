@@ -7,7 +7,18 @@
     <title>ICG project</title>
   </head>
   <body>
-    <div id="app"></div>
+    <button onclick="displayInstructions()">Instructions</button>
+
+    <script>
+      function displayInstructions() {
+        var instructionsWindow = window.open("", "Instructions", "width=500,height=500");
+        instructionsWindow.document.write("<h1>Ski Instructions</h1>");
+        instructionsWindow.document.write("<p>Here are the instructions:</p>");
+        instructionsWindow.document.write("<ul><li>move forward: arrow right</li><li>move back: arrow left</li><li>move up: arrow up</li><li>move down: arrow down</li></ul>");
+      }
+
+    </script>
+    
     <script type="module" src="/main.js"></script>
   </body>
 </html>

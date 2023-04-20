@@ -23,11 +23,17 @@ const ramp = new GLTFLoader();
 
 
 
-init();
 
+
+
+
+init();
+let ladyskiModel;
 
 
 function init(){ 
+
+ 
  // Set up the scene
  var scene = new THREE.Scene();
  var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -102,27 +108,36 @@ scene.add(SpotLightHelper);
   const skistart = new THREE.Vector3(-25,-13.7,16);
   const skiend = new THREE.Vector3(25,-13.7,16);
   
+  ladyski.load("assets/skiing_lady/scene.gltf", function(gltf){
+    ladyskiModel = gltf.scene;
+    scene.add(ladyskiModel)
+    ladyskiModel.scale.set(1,1,1)
+    ladyskiModel.position.copy(skistart)
+    ladyskiModel.rotation.set(0,1.9,0)
+  });
+  document.addEventListener("keydown", onDocumentKeyDown, false);
 
-   ladyski.load("asserts/skiing_lady/scene.gltf", function(gltf){
-    const model = gltf.scene;
-    scene.add(model)
-    model.scale.set(1,1,1)
-    model.position.copy(skistart)
-    model.rotation.set(0,1.9,0)
-    const duration = 10000; // Duration of one back-and-forth animation cycle in ms
+  function onDocumentKeyDown(event) {
+    const keyCode = event.which;
+    switch(keyCode) {
+      case 37: // left arrow
+        ladyskiModel.position.x -= 1;
+        break;
+      case 38: // up arrow
+        ladyskiModel.position.z -= 1;
+        break;
+      case 39: // right arrow
+        ladyskiModel.position.x += 1;
+        break;
+      case 40: // down arrow
+        ladyskiModel.position.z += 1;
+        break;
+    }
+  }
+  
+  
 
-    let startTime = null;
-    function animateLady(time) {
-      if (!startTime) startTime = time;
-      const progress = (time - startTime) % duration / duration; // Progress through the animation cycle as a value between 0 and 1
-      const position = new THREE.Vector3().lerpVectors(skistart, skiend, progress); // Interpolate between the start and end positions
-      model.position.copy(position);
-      requestAnimationFrame(animateLady);
-     }
 
-    // Start the animation loop
-    requestAnimationFrame(animateLady);
-   });
 
   // Define the two points
 const startPosition = new THREE.Vector3(-20, 0, -19);
@@ -130,7 +145,7 @@ const endPosition = new THREE.Vector3(15, -3, 35);
 
 // Define the teleferico model
 const teleferico = new GLTFLoader();
-teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
+teleferico.load("assets/teleferico/scene.gltf", function(gltf){
   const model = gltf.scene;
   scene.add(model);
   model.scale.set(1,1,1);
@@ -154,7 +169,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
 
 
 
-   snow_rock.load("asserts/snow_rock/scene.gltf", function(gltf){
+   snow_rock.load("assets/snow_rock/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
     model.scale.set(0.7,0.7,0.7)
@@ -162,7 +177,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
     model.rotation.set(0,4.5,0)
    });
 
-   snow_ground.load("asserts/patch_of_old_snow/scene.gltf", function(gltf){
+   snow_ground.load("assets/patch_of_old_snow/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
     model.scale.set(50,50,50)
@@ -170,7 +185,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
     model.rotation.set(0,0,0)
    });
 
-   tower.load("asserts/watch_tower/scene.gltf", function(gltf){
+   tower.load("assets/watch_tower/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
     model.scale.set(0.015,0.015,0.015)
@@ -178,7 +193,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
     model.rotation.set(0,4,0)
    });
 
-   ramp.load("asserts/ramp/scene.gltf", function(gltf){
+   ramp.load("assets/ramp/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
     model.scale.set(1,1,1)
@@ -197,7 +212,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
   let m = 15;
   let b = 15;
 
-  barrier.load("asserts/psx_style_jersey_barrier/scene.gltf", function(gltf){
+  barrier.load("assets/psx_style_jersey_barrier/scene.gltf", function(gltf){
     for (let i = 0; i < 38; i++) {
         const model = gltf.scene.clone();
         model.scale.set(1,1,1);
@@ -220,7 +235,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
   
 
 
-  road.load("asserts/snowy_road/scene.gltf", function(gltf){
+  road.load("assets/snowy_road/scene.gltf", function(gltf){
       for (let i = 0; i < 38; i++) {
           const model = gltf.scene.clone();
           model.scale.set(2, 2, 2);
@@ -241,7 +256,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
     }
   });
 
-  neve.load("asserts/neve_chao/scene.gltf", function(gltf){
+  neve.load("assets/neve_chao/scene.gltf", function(gltf){
     for (let i = 0; i < 38; i++) {
         const model = gltf.scene.clone();
         model.scale.set(0.03,0.03,0.03);
@@ -262,7 +277,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
   }
 });
 
-  cars.load("asserts/cars/scene.gltf", function(gltf){
+  cars.load("assets/cars/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
     model.scale.set(1,1,1)
@@ -270,7 +285,7 @@ teleferico.load("asserts/teleferico/scene.gltf", function(gltf){
     model.rotation.set(0,3.1,0)
    });
 
-   rocks.load("asserts/3d_scanned_snowy_rock_formation/scene.gltf", function(gltf){
+   rocks.load("assets/3d_scanned_snowy_rock_formation/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
     model.scale.set(0.5,0.5,0.5)
