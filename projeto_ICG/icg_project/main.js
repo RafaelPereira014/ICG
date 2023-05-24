@@ -7,7 +7,7 @@ import { SpotLightHelper } from 'three';
 
 
 
-const loader2 = new GLTFLoader();
+const mountain = new GLTFLoader();
 const ladyski = new GLTFLoader();
 const snowy = new GLTFLoader();
 const road = new GLTFLoader();
@@ -20,6 +20,7 @@ const neve = new GLTFLoader();
 const rocks = new GLTFLoader();
 const barrier = new GLTFLoader();
 const ramp = new GLTFLoader();
+const sol = new GLTFLoader();
 
 
 
@@ -33,21 +34,44 @@ let ladyskiModel;
 
 function init(){ 
 
+
+
  
  // Set up the scene
  var scene = new THREE.Scene();
  var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
  camera.position.set(0, 10, 50);
+
+ // camera controls
+ 
  var renderer = new THREE.WebGLRenderer();
  renderer.setSize(window.innerWidth, window.innerHeight);
- renderer.setClearColor(0xF2F3F5);
+ 
+ renderer.setClearColor(0xadd8e6);
+
  document.body.appendChild(renderer.domElement);
 
- 
+ // sun
 
- var ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
- scene.add(ambientLight);
 
+ const ambientLight = new THREE.AmbientLight(0xffffff, 1);
+    scene.add(ambientLight);
+  const directionalLight = new THREE.DirectionalLight(0xeead2d, 2)
+    directionalLight.castShadow = true;
+    directionalLight.angle = 1;
+    directionalLight.shadow.mapSize.width = 2048;
+    directionalLight.shadow.mapSize.height= 2048;
+    directionalLight.position.set(-10,20,-30);
+  const helper = new THREE.DirectionalLightHelper(directionalLight, 5);
+  scene.add(helper);
+  scene.add(directionalLight);
+
+  
+  const solTarget = new THREE.Object3D();
+  solTarget.position.set(0,5,0)
+  scene.add(solTarget);
+  directionalLight.target = solTarget;
+/*
  const spotLight = new THREE.SpotLight(0xffffff, 0.8);
  scene.add(spotLight);
 
@@ -56,7 +80,7 @@ spotLight.angle = 0.8;
 spotLight.position.set(0, 25, 0);
 const SpotLightHelper = new THREE.SpotLightHelper(spotLight);
 scene.add(SpotLightHelper);
-
+*/
  //snow
  var flakeCount = 20000;
  var flakeGeometry = new THREE.TetrahedronGeometry(0.035); // radius
@@ -90,19 +114,17 @@ scene.add(SpotLightHelper);
  // Add orbit controls to the camera
  var controls = new OrbitControls(camera, renderer.domElement);
 
- // Create the terrain
- var loader = new THREE.TextureLoader();
- loader.load('snow.jpg', function (texture) {
-   texture.wrapS = THREE.RepeatWrapping;
-   texture.wrapT = THREE.RepeatWrapping;
-   texture.repeat.set(64, 64);
-   var geometry = new THREE.PlaneGeometry(50, 50);
-   var material = new THREE.MeshPhongMaterial({ map: texture });
-   var terrain = new THREE.Mesh(geometry, material);
-   terrain.rotation.x = -Math.PI / 2;
-   terrain.position.y = -15;
-   scene.add(terrain);
- });
+
+ 
+
+  // Create the mountain
+  mountain.load("assets/mountain/scene.gltf", function(gltf){
+    var mountainModel = gltf.scene;
+    scene.add(mountainModel)
+    mountainModel.scale.set(0.009,0.009,0.009)
+    mountainModel.position.set(-10,-11,-9)
+    mountainModel.rotation.set(0,3.2,0)
+  });
 
 
   const skistart = new THREE.Vector3(-25,-13.7,16);
@@ -169,19 +191,13 @@ teleferico.load("assets/teleferico/scene.gltf", function(gltf){
 
 
 
-   snow_rock.load("assets/snow_rock/scene.gltf", function(gltf){
-    const model = gltf.scene;
-    scene.add(model)
-    model.scale.set(0.7,0.7,0.7)
-    model.position.set(-13,-16.5,-10)
-    model.rotation.set(0,4.5,0)
-   });
+ 
 
    snow_ground.load("assets/patch_of_old_snow/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
-    model.scale.set(50,50,50)
-    model.position.set(-5,-15,-4)
+    model.scale.set(100,50,50)
+    model.position.set(-5,-16,-4)
     model.rotation.set(0,0,0)
    });
 
@@ -193,11 +209,11 @@ teleferico.load("assets/teleferico/scene.gltf", function(gltf){
     model.rotation.set(0,4,0)
    });
 
-   ramp.load("assets/ramp/scene.gltf", function(gltf){
+   sol.load("assets/sun/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
-    model.scale.set(1,1,1)
-    model.position.set(10,-14,16)
+    model.scale.set(0.5,0.5,0.5)
+    model.position.set(-10,20,-30)
     model.rotation.set(0,1.9,0)
    });
 
@@ -285,13 +301,7 @@ teleferico.load("assets/teleferico/scene.gltf", function(gltf){
     model.rotation.set(0,3.1,0)
    });
 
-   rocks.load("assets/3d_scanned_snowy_rock_formation/scene.gltf", function(gltf){
-    const model = gltf.scene;
-    scene.add(model)
-    model.scale.set(0.5,0.5,0.5)
-    model.position.set(-17,-13.7,2)
-    model.rotation.set(0,-0.5,0)
-   });
+   
 
 
 
