@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden house
+* source:	https://sketchfab.com/3d-models/wooden-house-b1e04fd34a6d4f21a5928b9a6ecfe899
+* author:	Johan Pindeville (https://sketchfab.com/johanpindeville)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden house" (https://sketchfab.com/3d-models/wooden-house-b1e04fd34a6d4f21a5928b9a6ecfe899) by Johan Pindeville (https://sketchfab.com/johanpindeville) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

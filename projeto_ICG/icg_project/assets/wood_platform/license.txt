@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wood Platform
+* source:	https://sketchfab.com/3d-models/wood-platform-18b73f48bf2c411cbfcf8ac65713c42b
+* author:	RyanBlack (https://sketchfab.com/RyanBlack)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wood Platform" (https://sketchfab.com/3d-models/wood-platform-18b73f48bf2c411cbfcf8ac65713c42b) by RyanBlack (https://sketchfab.com/RyanBlack) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

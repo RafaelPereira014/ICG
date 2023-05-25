@@ -1,0 +1,11 @@
+Model Information:
+* title:	Glass Icosahedral Dome.
+* source:	https://sketchfab.com/3d-models/glass-icosahedral-dome-58eae05775224b9080b87124743b8f5b
+* author:	Eugene Gorun (https://sketchfab.com/gorun_architect)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Glass Icosahedral Dome." (https://sketchfab.com/3d-models/glass-icosahedral-dome-58eae05775224b9080b87124743b8f5b) by Eugene Gorun (https://sketchfab.com/gorun_architect) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

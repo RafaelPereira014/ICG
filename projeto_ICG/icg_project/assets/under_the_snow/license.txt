@@ -1,0 +1,11 @@
+Model Information:
+* title:	Day 34: One Love under the snow
+* source:	https://sketchfab.com/3d-models/day-34-one-love-under-the-snow-198ea92846af4238ad7d5f9cd9e6c399
+* author:	alban (https://sketchfab.com/alban)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Day 34: One Love under the snow" (https://sketchfab.com/3d-models/day-34-one-love-under-the-snow-198ea92846af4238ad7d5f9cd9e6c399) by alban (https://sketchfab.com/alban) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

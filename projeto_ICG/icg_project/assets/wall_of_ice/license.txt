@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wall of ice
+* source:	https://sketchfab.com/3d-models/wall-of-ice-17b6a81191f045a1af2d9bb57cad428b
+* author:	Lassi Kaukonen (https://sketchfab.com/thesidekick)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wall of ice" (https://sketchfab.com/3d-models/wall-of-ice-17b6a81191f045a1af2d9bb57cad428b) by Lassi Kaukonen (https://sketchfab.com/thesidekick) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
