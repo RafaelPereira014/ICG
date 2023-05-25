@@ -23,6 +23,7 @@ const barrier = new GLTFLoader();
 const tent = new GLTFLoader();
 const sol = new GLTFLoader();
 const wall = new GLTFLoader();
+const mountain = new GLTFLoader();
 
 
 
@@ -120,22 +121,7 @@ scene.background = textureLoader.load(sky);
 
  
 
-  // Create the mountain
-  // mountain.load("assets/mountain/scene.gltf", function(gltf){
-  //   var mountainModel = gltf.scene;
-  //   scene.add(mountainModel);
-  
-  //   // Traverse the mountain model and set the material color to white
-  //   mountainModel.traverse(function(child){
-  //     if(child.isMesh){
-  //       child.material.color.set(0xffffff);
-  //     }
-  //   });
-  
-  //   mountainModel.scale.set(0.009, 0.009, 0.009);
-  //   mountainModel.position.set(-10, -11, -9);
-  //   mountainModel.rotation.set(0, 3.2, 0);
-  // });
+
   
   
 
@@ -144,13 +130,13 @@ scene.background = textureLoader.load(sky);
   const skistart = new THREE.Vector3(-25,-13.7,16);
   const skiend = new THREE.Vector3(25,-13.7,16);
   
-  // ladyski.load("assets/skiing_lady/scene.gltf", function(gltf){
-  //   ladyskiModel = gltf.scene;
-  //   scene.add(ladyskiModel)
-  //   ladyskiModel.scale.set(1,1,1)
-  //   ladyskiModel.position.copy(skistart)
-  //   ladyskiModel.rotation.set(0,1.9,0)
-  // });
+   ladyski.load("assets/skiing_lady/scene.gltf", function(gltf){
+     ladyskiModel = gltf.scene;
+     scene.add(ladyskiModel)
+    ladyskiModel.scale.set(1,1,1)
+    ladyskiModel.position.copy(skistart)
+    ladyskiModel.rotation.set(0,1.9,0)
+   });
   document.addEventListener("keydown", onDocumentKeyDown, false);
 
   function onDocumentKeyDown(event) {
@@ -218,10 +204,18 @@ teleferico.load("assets/teleferico/scene.gltf", function(gltf){
    tower.load("assets/watch_tower/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
-    model.scale.set(0.015,0.015,0.015)
+    model.scale.set(0.013,0.013,0.013)
     model.position.set(-32,-16.5,-19)
     model.rotation.set(0,4,0)
    });
+
+   mountain.load("assets/snow_mountain/scene.gltf", function(gltf){
+    const model = gltf.scene;
+    scene.add(model);
+    model.scale.set(0.2,0.2,0.2);
+    model.position.set(-30,-16.5,-5);
+    model.rotation.set(0,0,0);
+  });
 
    sol.load("assets/sun/scene.gltf", function(gltf){
     const model = gltf.scene;
@@ -371,7 +365,7 @@ cars.load("assets/car_blue/scene.gltf", function(gltf){
   finish.load("assets/finish_line/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
-    model.scale.set(1,1,1)
+    model.scale.set(0.5,0.5,0.5)
     model.position.set(0,-14.5,13)
     model.rotation.set(0,-1.66,0)
     });
