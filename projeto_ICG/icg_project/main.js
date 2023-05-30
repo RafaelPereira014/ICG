@@ -212,9 +212,9 @@ teleferico.load("assets/teleferico/scene.gltf", function(gltf){
    mountain.load("assets/snow_mountain/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model);
-    model.scale.set(0.2,0.2,0.2);
-    model.position.set(-30,-16.5,-5);
-    model.rotation.set(0,0,0);
+    model.scale.set(0.4,0.4,0.4);
+    model.position.set(-35,-16.5,-5);
+    model.rotation.set(0,-2.6,0);
   });
 
    sol.load("assets/sun/scene.gltf", function(gltf){
