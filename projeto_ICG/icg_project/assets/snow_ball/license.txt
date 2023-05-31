@@ -1,0 +1,11 @@
+Model Information:
+* title:	Snow Ball from Fall Guys
+* source:	https://sketchfab.com/3d-models/snow-ball-from-fall-guys-677726e87f18476db850105fe487842c
+* author:	lukus1 (https://sketchfab.com/lukus1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Snow Ball from Fall Guys" (https://sketchfab.com/3d-models/snow-ball-from-fall-guys-677726e87f18476db850105fe487842c) by lukus1 (https://sketchfab.com/lukus1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

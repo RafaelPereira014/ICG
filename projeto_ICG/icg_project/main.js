@@ -4,12 +4,13 @@ import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { Mesh } from 'three';
 import { SpotLightHelper } from 'three';
-import sky from '/assets/sky.jpeg';
+import sky from '/assets/sky.jpg';
 
 
 
 
 const ladyski = new GLTFLoader();
+const ladyski2 = new GLTFLoader();
 const snowy = new GLTFLoader();
 const road = new GLTFLoader();
 const wood = new GLTFLoader();
@@ -23,6 +24,7 @@ const barrier = new GLTFLoader();
 const tent = new GLTFLoader();
 const sol = new GLTFLoader();
 const wall = new GLTFLoader();
+const snowTruck = new GLTFLoader();
 const mountain = new GLTFLoader();
 
 
@@ -45,6 +47,8 @@ function init(){
  var scene = new THREE.Scene();
  var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
  camera.position.set(0, 10, 50);
+
+
 
 
  const textureLoader = new THREE.TextureLoader();
@@ -109,8 +113,8 @@ scene.background = textureLoader.load(sky);
  // Create a line between the two mountains
  const material = new THREE.LineBasicMaterial( { color: 0x000000 } );
  const points = [];
- points.push( new THREE.Vector3( -20, 3, -19 ) );
- points.push( new THREE.Vector3( 15, -1, 35 ) );
+ points.push( new THREE.Vector3( -42, 6, -19 ) );
+ points.push( new THREE.Vector3( 15, -1, 45 ) );
  const geometry = new THREE.BufferGeometry().setFromPoints( points );
  const line = new THREE.Line( geometry, material );
  scene.add( line );
@@ -137,33 +141,19 @@ scene.background = textureLoader.load(sky);
     ladyskiModel.position.copy(skistart)
     ladyskiModel.rotation.set(0,1.9,0)
    });
-  document.addEventListener("keydown", onDocumentKeyDown, false);
 
-  function onDocumentKeyDown(event) {
-    const keyCode = event.which;
-    switch(keyCode) {
-      case 37: // left arrow
-        ladyskiModel.position.x -= 1;
-        break;
-      case 38: // up arrow
-        ladyskiModel.position.z -= 1;
-        break;
-      case 39: // right arrow
-        ladyskiModel.position.x += 1;
-        break;
-      case 40: // down arrow
-        ladyskiModel.position.z += 1;
-        break;
-    }
-  }
+
+   
+
+ 
   
   
 
 
 
   // Define the two points
-const startPosition = new THREE.Vector3(-20, 0, -19);
-const endPosition = new THREE.Vector3(15, -3, 35);
+const startPosition = new THREE.Vector3(-42, 3, -19);
+const endPosition = new THREE.Vector3(15, -3, 45);
 
 // Define the teleferico model
 const teleferico = new GLTFLoader();
@@ -172,7 +162,7 @@ teleferico.load("assets/teleferico/scene.gltf", function(gltf){
   scene.add(model);
   model.scale.set(1,1,1);
   model.position.copy(startPosition);
-  model.rotation.set(0,2.15,0);
+  model.rotation.set(0,2.6,0);
 
   // Define the animation loop
   const duration = 20000; // Duration of one back-and-forth animation cycle in ms
@@ -189,23 +179,29 @@ teleferico.load("assets/teleferico/scene.gltf", function(gltf){
   requestAnimationFrame(animateTeleferico);
 });
 
+// Create a plane
+var planeGeometry = new THREE.PlaneGeometry(100, 70);
+var planeMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff, side: THREE.DoubleSide });
+var plane = new THREE.Mesh(planeGeometry, planeMaterial);
+plane.rotation.x = -Math.PI / 2; // Rotate the plane to make it horizontal
+plane.position.x = -15;
+plane.position.y = -15; // Set the position of the plane
+plane.position.z = -10;
+scene.add(plane);
 
-
- 
-
-   snow_ground.load("assets/patch_of_old_snow/scene.gltf", function(gltf){
-    const model = gltf.scene;
-    scene.add(model)
-    model.scale.set(80,50,50)
-    model.position.set(-15,-16,-4)
-    model.rotation.set(0,0,0)
-   });
+  //  snow_ground.load("assets/patch_of_old_snow/scene.gltf", function(gltf){
+  //   const model = gltf.scene;
+  //   scene.add(model)
+  //   model.scale.set(100,50,50)
+  //   model.position.set(-25,-16,-4)
+  //   model.rotation.set(0,0,0)
+  //  });
 
    tower.load("assets/watch_tower/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
-    model.scale.set(0.013,0.013,0.013)
-    model.position.set(-32,-16.5,-19)
+    model.scale.set(0.02,0.02,0.02)
+    model.position.set(-42,-16.5,-19)
     model.rotation.set(0,4,0)
    });
 
@@ -214,7 +210,7 @@ teleferico.load("assets/teleferico/scene.gltf", function(gltf){
     scene.add(model);
     model.scale.set(0.4,0.4,0.4);
     model.position.set(-35,-16.5,-5);
-    model.rotation.set(0,-2.6,0);
+    model.rotation.set(0,-3.1,0);
   });
 
    sol.load("assets/sun/scene.gltf", function(gltf){
@@ -362,11 +358,20 @@ cars.load("assets/car_blue/scene.gltf", function(gltf){
   animateCar(); // Start the car animation loop
 });
 
+snowTruck.load("assets/snowplow/scene.gltf", function(gltf){
+  const model = gltf.scene;
+  scene.add(model)
+  model.scale.set(0.7,0.7,0.7)
+  model.position.set(6,-14.5,0)
+  model.rotation.set(0,-1.66,0)
+  });
+
+
   finish.load("assets/finish_line/scene.gltf", function(gltf){
     const model = gltf.scene;
     scene.add(model)
-    model.scale.set(0.5,0.5,0.5)
-    model.position.set(0,-14.5,13)
+    model.scale.set(0.7,0.7,0.7)
+    model.position.set(6,-14.5,13)
     model.rotation.set(0,-1.66,0)
     });
 
