@@ -166,6 +166,8 @@ async function createBoneco(){
 let bonecos = []
 const bonecosCount = 10
 
+const minY = -13;
+
 
 
 
@@ -632,16 +634,16 @@ poste_luz.load("assets/stadium_floodlights/scene.gltf", function(gltf){
         node.castShadow = true;
   })
   
-  model2.scale.set(0.7,0.7,0.7)
-  model2.position.set(-16,-25,-3)
+  model2.scale.set(0.7,0.5,0.7)
+  model2.position.set(-16,-14,-3)
   model2.rotation.set(0,0.3,0)
   model2.traverse(function(node){
     if (node.isMesh)
         node.castShadow = true;
   })
 
-  model3.scale.set(0.7,0.7,0.7)
-  model3.position.set(3,-25,15)
+  model3.scale.set(0.7,0.5,0.7)
+  model3.position.set(3,-14,15)
   model3.rotation.set(0,3.5,0)
   model3.traverse(function(node){
     if (node.isMesh)
@@ -917,9 +919,11 @@ function animate() {
     snow.rotation.y -= 0.0000005;
   }
 
-controls.update();
+  controls.update();
 
-
+  if(camera.position.y < minY){
+    camera.position.y = minY;
+  }
   console.log('animate')
   truck.update();
   checkCollision();
