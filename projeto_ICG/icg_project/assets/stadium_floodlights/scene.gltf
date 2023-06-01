@@ -1,0 +1,408 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 19009,
+      "max": [
+        196.2197265625,
+        218.27178955078125,
+        4150.92529296875
+      ],
+      "min": [
+        -196.2197265625,
+        -218.27178955078125,
+        0.00032806396484375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 228108,
+      "componentType": 5126,
+      "count": 19009,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 19009,
+      "max": [
+        0.9934642314910889,
+        0.9976041913032532
+      ],
+      "min": [
+        0.004545953124761581,
+        0.005254250019788742
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 36666,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 456216,
+      "componentType": 5126,
+      "count": 1110,
+      "max": [
+        186.71856689453125,
+        46.17872619628906,
+        4135.02734375
+      ],
+      "min": [
+        -186.71859741210938,
+        -218.27178955078125,
+        3407.922119140625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 469536,
+      "componentType": 5126,
+      "count": 1110,
+      "max": [
+        0.6247833371162415,
+        -0.6559350490570068,
+        -0.09716027975082397
+      ],
+      "min": [
+        -0.6247811913490295,
+        -0.9842538833618164,
+        -0.49984312057495117
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 152072,
+      "componentType": 5126,
+      "count": 1110,
+      "max": [
+        0.9083310961723328,
+        0.5286564230918884
+      ],
+      "min": [
+        0.48434895277023315,
+        0.3315793573856354
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 146664,
+      "componentType": 5125,
+      "count": 2886,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "CGAmp (https://sketchfab.com/cgamp)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/stadium-floodlights-3736aa3533264e05ae5feef43149b6c8",
+      "title": "Stadium Floodlights"
+    },
+    "generator": "Sketchfab-15.19.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 158208,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 160952,
+      "byteOffset": 158208,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 482856,
+      "byteOffset": 319160,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 802016,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness",
+    "KHR_materials_emissive_strength"
+  ],
+  "images": [
+    {
+      "uri": "textures/FLOODLIGHT_BIG_1_diffuse.png"
+    },
+    {
+      "uri": "textures/FLOODLIGHT_BIG_1_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/FLOODLIGHT_BIG_1_emissive.png"
+    },
+    {
+      "uri": "textures/FLOODLIGHT_BIG_1_occlusion.png"
+    }
+  ],
+  "materials": [
+    {
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.75,
+            0.75,
+            0.75,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.75,
+            0.75,
+            0.75
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "FLOODLIGHT_BIG_1",
+      "occlusionTexture": {
+        "index": 3
+      }
+    },
+    {
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 1.645782637976587
+        },
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "FLOODLIGHT_BIG_2",
+      "occlusionTexture": {
+        "index": 3,
+        "strength": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "FLOODLIGHT_FLOODLIGHT_BIG_1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "FLOODLIGHT_FLOODLIGHT_BIG_2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.8333333134651184,
+        -2.360641063046263e-16,
+        2.360641063046262e-16,
+        0.0,
+        -2.3606410630462624e-16,
+        -1.8503716635922944e-16,
+        0.8333333134651184,
+        0.0,
+        -2.3606410630462624e-16,
+        -0.8333333134651184,
+        -1.8503716635922951e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "015388660ca64e8db7c0eb3701da241f.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        0.013316775672137737,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.013316775672137737,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.013316775672137737,
+        0.0,
+        3.814697265625e-05,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "FLOODLIGHT"
+    },
+    {
+      "mesh": 0,
+      "name": "FLOODLIGHT_FLOODLIGHT_BIG_1_0"
+    },
+    {
+      "mesh": 1,
+      "name": "FLOODLIGHT_FLOODLIGHT_BIG_2_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Winter House
+* source:	https://sketchfab.com/3d-models/winter-house-e855aaa340a1420a84f72fe3ba62d895
+* author:	HUOOP (https://sketchfab.com/HUOOP)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Winter House" (https://sketchfab.com/3d-models/winter-house-e855aaa340a1420a84f72fe3ba62d895) by HUOOP (https://sketchfab.com/HUOOP) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

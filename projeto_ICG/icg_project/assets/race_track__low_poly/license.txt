@@ -1,0 +1,11 @@
+Model Information:
+* title:	Race Track / Low Poly
+* source:	https://sketchfab.com/3d-models/race-track-low-poly-1c8633fd04bb4f6d9302f37fcc222afd
+* author:	Mauro3D (https://sketchfab.com/maurogsw)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Race Track / Low Poly" (https://sketchfab.com/3d-models/race-track-low-poly-1c8633fd04bb4f6d9302f37fcc222afd) by Mauro3D (https://sketchfab.com/maurogsw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

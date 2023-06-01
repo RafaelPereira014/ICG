@@ -1,0 +1,11 @@
+Model Information:
+* title:	Snowplow Truck [Old Model]
+* source:	https://sketchfab.com/3d-models/snowplow-truck-old-model-db9b47537a3d4f0e9b0a591af2ed06f8
+* author:	Nub (https://sketchfab.com/NubStudios)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Snowplow Truck [Old Model]" (https://sketchfab.com/3d-models/snowplow-truck-old-model-db9b47537a3d4f0e9b0a591af2ed06f8) by Nub (https://sketchfab.com/NubStudios) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

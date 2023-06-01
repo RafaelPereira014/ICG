@@ -1,0 +1,292 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 44672,
+      "max": [
+        4.502880096435547,
+        1.2246700525283813,
+        1.2223399877548218
+      ],
+      "min": [
+        1.2209199666976929,
+        -1.1705399751663208,
+        -1.1814099550247192
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 536064,
+      "componentType": 5126,
+      "count": 44672,
+      "max": [
+        0.999929666519165,
+        0.9996441602706909,
+        0.9999183416366577
+      ],
+      "min": [
+        -0.9999749064445496,
+        -0.9997561573982239,
+        -0.999961793422699
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 268800,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1072128,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1072176,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1075200,
+      "componentType": 5125,
+      "count": 6,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "livescorer7 (https://sketchfab.com/livescorer7)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/coffee-mug-ae78ad4c242b41748ccfab7eed8f59fd",
+      "title": "Coffee mug"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1075224,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1072224,
+      "byteOffset": 1075224,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2147448,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "name": "Material.002"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.8000000119,
+            0.8000000119,
+            0.8000000119
+          ]
+        }
+      },
+      "name": "Material.001"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "NurbsPath_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Plane_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        3.78225,
+        110.90764000000001,
+        0.35927000000000003,
+        0.0,
+        -72.43732000000001,
+        2.19807,
+        84.04128000000001,
+        0.0,
+        -83.98490000000001,
+        3.09887,
+        -72.46979,
+        0.0,
+        -0.0,
+        -367.73720999999995,
+        109.08331,
+        1.0
+      ],
+      "name": "NurbsPath"
+    },
+    {
+      "mesh": 0,
+      "name": "NurbsPath_0"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        2614.8203100000005,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2614.8203100000005,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2614.8203100000005,
+        0.0,
+        0.01583,
+        -1.1266800000000001,
+        0.06066000000000001,
+        1.0
+      ],
+      "name": "Plane"
+    },
+    {
+      "mesh": 1,
+      "name": "Plane_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

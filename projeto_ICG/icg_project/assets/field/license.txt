@@ -1,0 +1,11 @@
+Model Information:
+* title:	Field from my school
+* source:	https://sketchfab.com/3d-models/field-from-my-school-9ea0c9800ef243f3a45550a08d86e0c4
+* author:	diana.c2005 (https://sketchfab.com/diana.c2005)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Field from my school" (https://sketchfab.com/3d-models/field-from-my-school-9ea0c9800ef243f3a45550a08d86e0c4) by diana.c2005 (https://sketchfab.com/diana.c2005) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

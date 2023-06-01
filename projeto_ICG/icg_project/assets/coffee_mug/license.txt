@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coffee mug
+* source:	https://sketchfab.com/3d-models/coffee-mug-ae78ad4c242b41748ccfab7eed8f59fd
+* author:	livescorer7 (https://sketchfab.com/livescorer7)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coffee mug" (https://sketchfab.com/3d-models/coffee-mug-ae78ad4c242b41748ccfab7eed8f59fd) by livescorer7 (https://sketchfab.com/livescorer7) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

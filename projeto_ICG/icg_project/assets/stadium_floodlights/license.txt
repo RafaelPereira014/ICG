@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stadium Floodlights
+* source:	https://sketchfab.com/3d-models/stadium-floodlights-3736aa3533264e05ae5feef43149b6c8
+* author:	CGAmp (https://sketchfab.com/cgamp)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stadium Floodlights" (https://sketchfab.com/3d-models/stadium-floodlights-3736aa3533264e05ae5feef43149b6c8) by CGAmp (https://sketchfab.com/cgamp) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

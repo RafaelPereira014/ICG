@@ -1,0 +1,11 @@
+Model Information:
+* title:	Football Gate
+* source:	https://sketchfab.com/3d-models/football-gate-48ddabcf5d57425fb9f34061460fa5b6
+* author:	Neo_minigan (https://sketchfab.com/neominigan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Football Gate" (https://sketchfab.com/3d-models/football-gate-48ddabcf5d57425fb9f34061460fa5b6) by Neo_minigan (https://sketchfab.com/neominigan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

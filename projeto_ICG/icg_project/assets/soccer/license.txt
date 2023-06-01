@@ -1,0 +1,11 @@
+Model Information:
+* title:	Soccer
+* source:	https://sketchfab.com/3d-models/soccer-6441f016652e4a7ab9216e9419efb4d1
+* author:	MatthewDouglas (https://sketchfab.com/TheTopIsdown)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Soccer" (https://sketchfab.com/3d-models/soccer-6441f016652e4a7ab9216e9419efb4d1) by MatthewDouglas (https://sketchfab.com/TheTopIsdown) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

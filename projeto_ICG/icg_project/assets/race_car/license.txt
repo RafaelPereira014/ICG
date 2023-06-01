@@ -1,0 +1,11 @@
+Model Information:
+* title:	Race Car
+* source:	https://sketchfab.com/3d-models/race-car-517dfa8823394b178c9c313d7e68fb7f
+* author:	Tasneem (https://sketchfab.com/Tasneem)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Race Car" (https://sketchfab.com/3d-models/race-car-517dfa8823394b178c9c313d7e68fb7f) by Tasneem (https://sketchfab.com/Tasneem) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
